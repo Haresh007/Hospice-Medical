@@ -1,0 +1,519 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* position: relative; */
+}
+
+.header {
+    background-image: url(./bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: contain; */
+    height: 800px;
+    width: 1519px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1414px;
+    padding: 31px 77px;
+}
+
+.img_header {
+    width: 119px;
+    height: 35px;
+    margin-left: 50px;
+}
+
+.navigation ul {
+    display: flex;
+}
+
+.navigation ul li {
+    /* position: fixed; */
+    font-size: 12px;
+    list-style: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#header_h1 {
+    color: white;
+    font-size: 48px;
+    width: 500px;
+    margin: 55px 225px 0px;
+}
+
+#small_words {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 225px;
+    width: 500px;
+    font-size: 14px;
+}
+
+#header_sub {
+    background-color: #3FACE4;
+    padding: 15px;
+    border-radius: 6px;
+    width: 139px;
+    color: white;
+    border: none;
+    margin: 20px 225px;
+    cursor: pointer;
+}
+
+#header_sub:hover {
+    background-color: white;
+    color: #3FACE4;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#main_h1 {
+    font-size: 36px;
+    margin: 150px 274px 20px;
+    text-align: center;
+}
+
+#main_para {
+    font-size: 14px;
+    text-align: center;
+    width: 530px;
+    margin: 0px auto;
+    color: gray;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 90px;
+    /* width: 500px; */
+}
+
+#smile {
+    margin-right: 25px;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+#pump {
+    margin-right: 25px;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+#injection {
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.doctor_compartment {
+    display: flex;
+    flex-direction: row;
+    background-color: #F9F9FF;
+    margin: 120px 274px 0px;
+    height: 600px;
+    margin-bottom: 120px;
+}
+
+#doctor {
+    height: 600px;
+}
+
+#doc_h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.ratee {
+    /* display: flex; */
+    /* flex-direction: row; */
+    height: 126px;
+    padding: 30px;
+    /* margin: 257px 60px 0px -336px; */
+}
+
+.first {
+    border: 2px solid black;
+}
+
+.second {
+    border: 2px solid black;
+}
+
+#doc_para {
+    font-size: 14px;
+    width: 325px;
+    margin-left: 60px;
+}
+
+.rateee {
+    margin-top: 294px;
+    /* margin-right: 0px; */
+    margin-left: -295px;
+    display: grid;
+}
+
+
+/* #rate1 {
+    margin-right: 15px;
+    border: 2px solid black;
+}
+
+#rate2 {
+    border: 2px solid black;
+}*/
+
+
+/* #doc_para {
+    font-size: 14px;
+    width: 326px;
+    margin-left: 80px;
+} */
+
+.phone_girl {
+    background-color: #F9F9FF;
+    height: 780px;
+    margin-top: 120px;
+}
+
+#feedback {
+    position: absolute;
+    font-size: 36px;
+    margin-top: 120px;
+    margin-left: 500px;
+}
+
+#small_w {
+    font-size: 14px;
+    width: 500px;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 478px;
+    text-align: center;
+}
+
+.img_part {
+    display: flex;
+    flex-direction: row;
+}
+
+.girl_tab {
+    position: absolute;
+    margin: 311px 274px 0px;
+}
+
+#fannie {
+    margin: 400px 0px 0px 900px;
+}
+
+.smile_para {
+    color: gray;
+    margin: 463px 20px 12px -137px;
+}
+
+.fa {
+    color: #FFA500;
+    font-weight: 900;
+    margin-top: 415px;
+}
+
+.fas {
+    color: #3FACE4;
+    /* transition: 0.9s; */
+}
+
+#serv_h1 {
+    font-size: 36px;
+    margin-top: 80px;
+    /* margin: 0px auto; */
+    text-align: center;
+}
+
+#serv_p {
+    color: gray;
+    /* margin-top: 20px; */
+    font-size: 14px;
+    text-align: center;
+    width: 500px;
+    /* margin: 0px auto; */
+    margin: 20px auto;
+}
+
+.sevices_features {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    /* width: 300px; */
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.fas {
+    font-size: 30px;
+}
+
+#emergency {
+    width: 260px;
+    margin-right: 40px;
+}
+
+#expert {
+    width: 260px;
+    margin-right: 40px;
+}
+
+#care {
+    width: 260px;
+    margin-right: 40px;
+}
+
+#family {
+    width: 260px;
+    margin-right: 40px;
+}
+
+.form_part {
+    margin-top: 80px;
+    background-color: #F9F9FF;
+    display: flex;
+    flex-direction: row;
+    /* height: 500px; */
+    height: 737px;
+}
+
+.hours_servicing {
+    margin-top: 132px;
+    margin-right: 40px;
+}
+
+#hours {
+    margin-top: 80px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+#hours_txt {
+    color: gray;
+    margin-left: 300px;
+    font-size: 14px;
+    width: 490px;
+}
+
+.days {
+    margin-left: 299px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+#day1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 428px;
+    margin-bottom: 25px;
+    margin-top: 34px;
+}
+
+.form {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+}
+
+.formm {
+    width: 348px;
+    height: 53px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#submit {
+    background-color: #3FACE4;
+    color: white;
+    border: 0px;
+    height: 46px;
+    margin-left: 128px;
+    align-items: center;
+    margin-top: 30px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: white;
+    color: #3FACE4;
+    border: 2px solid #3FACE4;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.blog {
+    margin-top: 120px;
+    text-align: center;
+}
+
+#recent {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#recent_para {
+    font-size: 14px;
+    color: gray;
+    width: 570px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.tablets_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 45px 143px 0px 150px;
+}
+
+.p_h1 {
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.p_para {
+    color: gray;
+    font-size: 14px;
+    width: 310px;
+}
+
+.emoji {
+    font-size: 13px;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 50px 0px 0px;
+}
+
+.far {
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    margin-top: 120px;
+    background-color: #222222;
+    height: 500px;
+}
+
+.one1 {
+    margin: 100px 21px 0px 126px;
+    cursor: pointer;
+}
+
+.one1:hover {
+    color: #3FACE4;
+    transition: 0.3s;
+}
+
+#one {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#two:hover {
+    color: #3FACE4;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#two {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#three:hover {
+    color: #3FACE4;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#three {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.two2 {
+    margin: 100px 131px 0px 126px;
+}
+
+.three3 {
+    margin: 100px 129px 0px 0px;
+}
+
+.gray {
+    font-size: 13px;
+    color: gray;
+}
+
+#footer_email {
+    width: 273px;
+    padding: 12px;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+    border: 0px;
+    margin-top: 20px;
+}
+
+#footer_sub {
+    color: white;
+    width: 91px;
+    padding: 10px;
+    border-radius: 34px;
+    background-color: #3FACE4;
+    /* background-color: #rgb(63,172,228); */
+    border: 0px;
+}
+
+#footer_sub:hover {
+    background-color: #222222;
+    color: #3FACE4;
+    border: 2px solid #3FACE4;
+    transition: 0.3s;
+}
+
+.media {
+    margin: 136px 94px 20px 44px;
+    font-size: 33px;
+    /* filter: invert(50%); */
+}
+
+.fab {
+    margin-right: 15px;
+}
+
+.fab:hover {
+    color: #3FACE4;
+    transition: 0.3s;
+}
